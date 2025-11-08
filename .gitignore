@@ -25,6 +25,13 @@ desktop.ini
 .env.local
 *.local
 
+# Tokens e credenciais (NUNCA commitar!)
+*.token
+*.key
+*.secret
+credentials
+.git-credentials
+
 # Arquivos de backup
 *.bak
 *.backup
