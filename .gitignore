@@ -1,0 +1,48 @@
+# Binários e executáveis
+kind
+kubectl
+*.exe
+*.bin
+
+# Arquivos de checksum
+*.sha256
+*.md5
+*.sha1
+
+# Arquivos temporários
+*.tmp
+*.log
+*.swp
+*~
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de configuração local
+.env
+.env.local
+*.local
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos do Kubernetes (se houver)
+kubeconfig
+*.kubeconfig
+
+# Arquivos do Docker
+docker-compose.override.yml
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Arquivos grandes/imagens (opcional - descomente se não quiser versionar)
+# *.png
+# *.jpg
+# *.jpeg
+
